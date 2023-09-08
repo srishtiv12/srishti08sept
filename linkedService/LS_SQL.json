@@ -1,0 +1,12 @@
+{
+	"name": "LS_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=srvr08srishti.database.windows.net;initial catalog=db08srishti;user id=db08srishti",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDVFNzBDOTU4LTY3QkUtNDkxMS05MDI3LUNEMTAzNzFCOEQ2Ml9iZGRmMzJlNC1hMmE2LTRmMTEtOTY5Mi00ZjE1M2JlNWY1M2YiDQp9"
+		}
+	}
+}
